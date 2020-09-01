@@ -1,6 +1,11 @@
 # Changelog
 
-## 0.0.2 - 2020-06-30
+## 0.0.2.1 - 2020-08-31
+
+### Changed
+- Code review in body.sh
+
+## 0.0.2 - 2020-08-30
 
 ### Added
 - Main commands to add new topics
