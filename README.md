@@ -30,11 +30,11 @@ $ `bashist <option> <number_line> <text> ... <text>`
 
 Example:
 
-  `$ bashist -t 1 my projects`
+$ `bashist -t 1 my projects`
 
-  Output in HTML in line 1:
+Output in HTML in line 1:
 
-  `<h1>~$ my projects</h1>`
+`<h1>~$ my projects</h1>`
 
 ## Option tags
 
@@ -70,13 +70,12 @@ $ `bashist -g`
 
 * [ ] add env var
 * [ ] li options with multiple words
-* [ ] treat link in commands
-* [ ] treat argument errors
+* [ ] link tag option
+* [ ] treat errors
 * [ ] add help flag
 * [ ] change index var into IO process
 * [ ] add fav icon
 * [ ] update readme
-* [ ] project badge
 
 # Disclaimer
 
