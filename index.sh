@@ -19,7 +19,7 @@ Generated with Bashist in $(date '+%Y/%m/%d')
     <title>$TITLE</title>
     <meta name="description" content="$DESCRIPTION" />
     <meta name="keywords" content="$KEYWORD1, $KEYWORD2, $KEYWORD3">
-    <meta name="copyright" content="© $YEAR $AUTHOR" />
+    <meta name="copyright" content="© $(date '+%Y') $AUTHOR" />
     <meta name="theme-color" content="#2d0922">
 
     <link rel="stylesheet" href="style.css" />

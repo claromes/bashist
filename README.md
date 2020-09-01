@@ -1,5 +1,5 @@
 <p>
-  <img alt="Version 0.0.2.1" src="https://img.shields.io/badge/version-0.0.2.1-148ecb">
+  <img alt="Version 0.0.3" src="https://img.shields.io/badge/version-0.0.3-148ecb">
 </p>
 
 # Bashist
@@ -8,7 +8,37 @@ CLI HTML generator with Terminal style
 
 # Docs
 
-**Option**
+**Install**
+
+Soon
+
+**Start**
+
+$ `bashist -i`
+
+Create a file to append tags
+
+---
+
+**Create tags**
+
+$ `bashist <option> <number_line> <text> ... <text>`
+
+- `<option>`: Type of tag (see Option tags)
+
+- `<number_line>`: Number line to append the tag
+
+- `<text>`: Text to append
+
+## Example:
+
+- `$ bashist -t 1 my projects`
+
+  Output in HTML in line 1:
+
+  `<h1>~$ my projects</h1>`
+
+**Option tags**
 
 - `-t` or `--title`
 
@@ -32,43 +62,15 @@ CLI HTML generator with Terminal style
 
 ---
 
-**Start**
-
-$ `bashist body -init`
-
-Create a file to append tags
-
----
-
-**Create tags**
-
-$ `bashist body <number_line> <option> <text> ... <text>`
-
-- `<number_line>`: Number line to append the tag
-
-- `<option>`: Type of tag (h1, p or ul)
-
-- `<text>`: Text to append
-
-## Example:
-
-- `$ bashist body 1 -t my projects`
-
-  Output in HTML in line 1:
-
-  `<h1>~$ my projects</h1>`
-
----
-
 **Generate HTML**
 
-$ `bashist index`
+$ `bashist -g`
 
 ---
 
 # TODO
 
-* [ ] bashist, body, index command/ add env var
+* [ ] add env var
 * [ ] li options with multiple words
 * [ ] treat link in commands
 * [ ] treat argument errors
@@ -76,6 +78,7 @@ $ `bashist index`
 * [ ] change index var into IO process
 * [ ] add fav icon
 * [ ] update readme
+* [ ] project badge
 
 # Disclaimer
 
