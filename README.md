@@ -26,7 +26,7 @@ Create a file to append tags
 
 $ `bashist <option> <number_line> <text> ... <text>`
 
-- `<option>`: Type of tag (see [Option tags]())
+- `<option>`: Type of tag (see [Option tags](https://gitlab.com/claromes/bashist#option-tags))
 
 - `<number_line>`: Number line to append the tag
 
