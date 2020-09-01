@@ -1,7 +1,3 @@
-<p>
-  <img alt="Version 0.0.3" src="https://img.shields.io/badge/version-0.0.3-148ecb">
-</p>
-
 # Bashist
 
 CLI HTML generator with Terminal style
