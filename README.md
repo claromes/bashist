@@ -8,11 +8,13 @@ CLI HTML generator with Terminal style
 
 # Docs
 
-**Install**
+## Install
 
 Soon
 
-**Start**
+---
+
+## Start
 
 $ `bashist -i`
 
@@ -20,25 +22,25 @@ Create a file to append tags
 
 ---
 
-**Create tags**
+## Create tags
 
 $ `bashist <option> <number_line> <text> ... <text>`
 
-- `<option>`: Type of tag (see Option tags)
+- `<option>`: Type of tag (see [Option tags]())
 
 - `<number_line>`: Number line to append the tag
 
 - `<text>`: Text to append
 
-## Example:
+Example:
 
-- `$ bashist -t 1 my projects`
+  `$ bashist -t 1 my projects`
 
   Output in HTML in line 1:
 
   `<h1>~$ my projects</h1>`
 
-**Option tags**
+## Option tags
 
 - `-t` or `--title`
 
@@ -62,7 +64,7 @@ $ `bashist <option> <number_line> <text> ... <text>`
 
 ---
 
-**Generate HTML**
+## Generate HTML
 
 $ `bashist -g`
 
